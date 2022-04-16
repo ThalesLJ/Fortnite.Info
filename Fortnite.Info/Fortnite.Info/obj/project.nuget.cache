@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "C2zF4SAOV8rIlV58Td58fqNGbtqzM+EL31zcxdd4/N0M44EkiXtQKGrVNr9GZ0qT0XlFFXefuq9wFlBYE2ZMqA==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thale\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\thale\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\thale\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
