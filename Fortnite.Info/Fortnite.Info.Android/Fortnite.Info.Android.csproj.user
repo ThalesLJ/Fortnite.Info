@@ -4,5 +4,6 @@
     <SelectedDevice>Motorola one</SelectedDevice>
     <ActiveDebugProfile>Motorola one</ActiveDebugProfile>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
+    <DefaultDevice>Pixel_4_XL_API_30</DefaultDevice>
   </PropertyGroup>
 </Project>

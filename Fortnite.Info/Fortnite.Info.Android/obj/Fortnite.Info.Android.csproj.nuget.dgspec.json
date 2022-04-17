@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info.Android\\Fortnite.Info.Android.csproj": {}
+    "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.Android\\Fortnite.Info.Android.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info.Android\\Fortnite.Info.Android.csproj": {
+    "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.Android\\Fortnite.Info.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info.Android\\Fortnite.Info.Android.csproj",
+        "projectUniqueName": "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.Android\\Fortnite.Info.Android.csproj",
         "projectName": "Fortnite.Info.Android",
-        "projectPath": "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info.Android\\Fortnite.Info.Android.csproj",
+        "projectPath": "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.Android\\Fortnite.Info.Android.csproj",
         "packagesPath": "C:\\Users\\thale\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info.Android\\obj\\",
+        "outputPath": "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj": {
-                "projectPath": "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj"
+              "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj": {
+                "projectPath": "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj"
               }
             }
           }
@@ -56,14 +56,14 @@
         }
       }
     },
-    "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj": {
+    "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj",
+        "projectUniqueName": "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj",
         "projectName": "Fortnite.Info",
-        "projectPath": "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj",
+        "projectPath": "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj",
         "packagesPath": "C:\\Users\\thale\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info\\obj\\",
+        "outputPath": "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -103,6 +103,14 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Plugin.Toast": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

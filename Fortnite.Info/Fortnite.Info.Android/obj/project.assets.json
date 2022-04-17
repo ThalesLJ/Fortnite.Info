@@ -2,6 +2,26 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v11.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Toast/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/Plugin.Toast.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Toast.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.Toast.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Toast.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -975,6 +995,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "Plugin.Toast": "2.2.0",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -988,6 +1010,67 @@
     }
   },
   "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Plugin.Toast/2.2.0": {
+      "sha512": "PDq+r0P/WRu4YZimpwwfeLaTpHCVWlcw3MjJRC1be6Cg4ORfXL8YDz3HchnrRssRueUgP9ouwzLaQ4tLCD3Q4w==",
+      "type": "package",
+      "path": "plugin.toast/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10/Plugin.Toast.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Toast.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Toast.dll",
+        "lib/MonoAndroid10/Plugin.Toast.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Toast.pdb",
+        "lib/MonoAndroid10/Plugin.Toast.xml",
+        "lib/UAP10/Plugin.Toast.Abstractions.dll",
+        "lib/UAP10/Plugin.Toast.Abstractions.pdb",
+        "lib/UAP10/Plugin.Toast.dll",
+        "lib/UAP10/Plugin.Toast.pdb",
+        "lib/UAP10/Plugin.Toast.pri",
+        "lib/Xamarin.iOS10/Plugin.Toast.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Toast.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Toast.dll",
+        "lib/Xamarin.iOS10/Plugin.Toast.dll.mdb",
+        "lib/Xamarin.iOS10/Plugin.Toast.pdb",
+        "lib/Xamarin.iOS10/Plugin.Toast.xml",
+        "lib/netstandard/Plugin.Toast.Abstractions.dll",
+        "lib/netstandard/Plugin.Toast.Abstractions.pdb",
+        "lib/netstandard/Plugin.Toast.deps.json",
+        "lib/netstandard/Plugin.Toast.dll",
+        "lib/netstandard/Plugin.Toast.pdb",
+        "plugin.toast.2.2.0.nupkg.sha512",
+        "plugin.toast.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -2149,11 +2232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info.Android\\Fortnite.Info.Android.csproj",
+      "projectUniqueName": "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.Android\\Fortnite.Info.Android.csproj",
       "projectName": "Fortnite.Info.Android",
-      "projectPath": "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info.Android\\Fortnite.Info.Android.csproj",
+      "projectPath": "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.Android\\Fortnite.Info.Android.csproj",
       "packagesPath": "C:\\Users\\thale\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info.Android\\obj\\",
+      "outputPath": "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2176,8 +2259,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj": {
-              "projectPath": "D:\\Projetos\\dotnet\\Fortnite-Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj"
+            "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj": {
+              "projectPath": "D:\\Projetos\\dotnet\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info\\Fortnite.Info.csproj"
             }
           }
         }
