@@ -1,12 +1,8 @@
 ﻿using Fortnite.Info.Model;
 using Newtonsoft.Json;
 using Plugin.Toast;
-using System;
-using System.Collections.Generic;
 using System.Globalization;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Fortnite.Info.Controller
 {
@@ -35,10 +31,16 @@ namespace Fortnite.Info.Controller
                         StoreResponse shop = JsonConvert.DeserializeObject<StoreResponse>(result);
                         return shop;
                     }
+                    else
+                    {
+                        CrossToastPopUp.Current.ShowToastMessage("Ocorreu um erro!");
+                        return null;
+                    }
                 }
+                CrossToastPopUp.Current.ShowToastMessage("Ocorreu um erro!");
                 return null;
             }
-            catch (Exception)
+            catch
             {
                 CrossToastPopUp.Current.ShowToastMessage("Ocorreu um erro!");
                 return null;
